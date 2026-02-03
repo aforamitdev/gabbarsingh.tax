@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Geist_Mono, Sora } from "next/font/google";
 import "./globals.css";
 import { SiteNav } from "@/components/site-nav";
+import Script from "next/script";
 
 const sora = Sora({
   variable: "--font-sora",
@@ -74,6 +75,16 @@ export default function RootLayout({
         className={`${sora.variable} ${fraunces.variable} ${geistMono.variable} antialiased`}
       >
         <div className="bg-[#f7f2ea] text-[#1f1d1a]">
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-PKF5LT2T99"
+            strategy="afterInteractive"
+          />
+          <Script id="ga-init" strategy="afterInteractive">
+            {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-PKF5LT2T99');`}
+          </Script>
           <div className="mx-auto flex w-full max-w-6xl items-center justify-end px-6 pt-6 md:px-10">
             <SiteNav />
           </div>
