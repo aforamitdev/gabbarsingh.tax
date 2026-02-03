@@ -1,0 +1,285 @@
+{
+  "title": "India Tax Health",
+  "generated_on": "2026-02-03",
+  "facts": {
+    "population_filing_itr_fy2023_24": {
+      "percent_of_population": 6.68,
+      "itr_filed_crore": 8.09,
+      "source": {
+        "name": "Parliament reply reported by Business Standard",
+        "url": "https://www.business-standard.com/finance/news/only-6-68-of-population-filed-income-tax-return-in-fy24-govt-tells-house-124121700768_1.html",
+        "date": "2024-12-17"
+      },
+      "note": "This measures ITR filers, not necessarily taxpayers with positive tax liability."
+    },
+    "direct_tax_split_as_of_2024_06_17": {
+      "net_direct_tax_rs_crore": 462664,
+      "corporate_tax_rs_crore": 180949,
+      "personal_income_tax_rs_crore": 281013,
+      "source": {
+        "name": "CBDT press release (18 Jun 2024)",
+        "url": "https://incometaxindia.gov.in/Lists/Press%20Releases/Attachments/1192/Press-Release-Gross-Direct-Tax-collections-for-the-FY-2024-25-register-a-growth-of-22.19-dated-18-06-2024.pdf",
+        "date": "2024-06-18"
+      },
+      "note": "Net of refunds; PIT includes STT; provisional figures as of 17.06.2024."
+    },
+    "fiscal_deficit": {
+      "fy2024_25_be_percent_gdp": 4.9,
+      "fy2023_24_pa_percent_gdp": 5.6,
+      "source": {
+        "name": "PIB Union Budget 2024-25 summary",
+        "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/jul/doc2024723352501.pdf",
+        "date": "2024-07-23"
+      }
+    }
+  },
+  "state_gst_collection_dec_2023": {
+    "unit": "Rs crore",
+    "total_rs_crore": 122270,
+    "source": {
+      "name": "PIB GST press release (Dec 2023 state-wise table)",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1992123",
+      "date": "2024-01-01"
+    },
+    "states": [
+      {
+        "state": "Andaman and Nicobar Islands",
+        "gst_dec_2023_rs_crore": 28,
+        "share_of_total_percent": 0.0229,
+        "mappable": true
+      },
+      {
+        "state": "Andhra Pradesh",
+        "gst_dec_2023_rs_crore": 3545,
+        "share_of_total_percent": 2.8993,
+        "mappable": true
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "gst_dec_2023_rs_crore": 97,
+        "share_of_total_percent": 0.0793,
+        "mappable": true
+      },
+      {
+        "state": "Assam",
+        "gst_dec_2023_rs_crore": 1303,
+        "share_of_total_percent": 1.0657,
+        "mappable": true
+      },
+      {
+        "state": "Bihar",
+        "gst_dec_2023_rs_crore": 1487,
+        "share_of_total_percent": 1.2162,
+        "mappable": true
+      },
+      {
+        "state": "Center Jurisdiction",
+        "gst_dec_2023_rs_crore": 243,
+        "share_of_total_percent": 0.1987,
+        "mappable": false
+      },
+      {
+        "state": "Chandigarh",
+        "gst_dec_2023_rs_crore": 281,
+        "share_of_total_percent": 0.2298,
+        "mappable": true
+      },
+      {
+        "state": "Chhattisgarh",
+        "gst_dec_2023_rs_crore": 2613,
+        "share_of_total_percent": 2.1371,
+        "mappable": true
+      },
+      {
+        "state": "Dadra and Nagar Haveli and Daman & Diu",
+        "gst_dec_2023_rs_crore": 333,
+        "share_of_total_percent": 0.2723,
+        "mappable": true
+      },
+      {
+        "state": "Delhi",
+        "gst_dec_2023_rs_crore": 5121,
+        "share_of_total_percent": 4.1883,
+        "mappable": true
+      },
+      {
+        "state": "Goa",
+        "gst_dec_2023_rs_crore": 553,
+        "share_of_total_percent": 0.4523,
+        "mappable": true
+      },
+      {
+        "state": "Gujarat",
+        "gst_dec_2023_rs_crore": 9874,
+        "share_of_total_percent": 8.0756,
+        "mappable": true
+      },
+      {
+        "state": "Haryana",
+        "gst_dec_2023_rs_crore": 8130,
+        "share_of_total_percent": 6.6492,
+        "mappable": true
+      },
+      {
+        "state": "Himachal Pradesh",
+        "gst_dec_2023_rs_crore": 745,
+        "share_of_total_percent": 0.6093,
+        "mappable": true
+      },
+      {
+        "state": "Jammu and Kashmir",
+        "gst_dec_2023_rs_crore": 492,
+        "share_of_total_percent": 0.4024,
+        "mappable": true
+      },
+      {
+        "state": "Jharkhand",
+        "gst_dec_2023_rs_crore": 2632,
+        "share_of_total_percent": 2.1526,
+        "mappable": true
+      },
+      {
+        "state": "Karnataka",
+        "gst_dec_2023_rs_crore": 11759,
+        "share_of_total_percent": 9.6172,
+        "mappable": true
+      },
+      {
+        "state": "Kerala",
+        "gst_dec_2023_rs_crore": 2458,
+        "share_of_total_percent": 2.0103,
+        "mappable": true
+      },
+      {
+        "state": "Ladakh",
+        "gst_dec_2023_rs_crore": 58,
+        "share_of_total_percent": 0.0474,
+        "mappable": true
+      },
+      {
+        "state": "Lakshadweep",
+        "gst_dec_2023_rs_crore": 4,
+        "share_of_total_percent": 0.0033,
+        "mappable": true
+      },
+      {
+        "state": "Madhya Pradesh",
+        "gst_dec_2023_rs_crore": 3423,
+        "share_of_total_percent": 2.7995,
+        "mappable": true
+      },
+      {
+        "state": "Maharashtra",
+        "gst_dec_2023_rs_crore": 26814,
+        "share_of_total_percent": 21.9302,
+        "mappable": true
+      },
+      {
+        "state": "Manipur",
+        "gst_dec_2023_rs_crore": 50,
+        "share_of_total_percent": 0.0409,
+        "mappable": true
+      },
+      {
+        "state": "Meghalaya",
+        "gst_dec_2023_rs_crore": 171,
+        "share_of_total_percent": 0.1399,
+        "mappable": true
+      },
+      {
+        "state": "Mizoram",
+        "gst_dec_2023_rs_crore": 27,
+        "share_of_total_percent": 0.0221,
+        "mappable": true
+      },
+      {
+        "state": "Nagaland",
+        "gst_dec_2023_rs_crore": 46,
+        "share_of_total_percent": 0.0376,
+        "mappable": true
+      },
+      {
+        "state": "Odisha",
+        "gst_dec_2023_rs_crore": 4351,
+        "share_of_total_percent": 3.5585,
+        "mappable": true
+      },
+      {
+        "state": "Other Territory",
+        "gst_dec_2023_rs_crore": 227,
+        "share_of_total_percent": 0.1857,
+        "mappable": false
+      },
+      {
+        "state": "Puducherry",
+        "gst_dec_2023_rs_crore": 232,
+        "share_of_total_percent": 0.1897,
+        "mappable": true
+      },
+      {
+        "state": "Punjab",
+        "gst_dec_2023_rs_crore": 1875,
+        "share_of_total_percent": 1.5335,
+        "mappable": true
+      },
+      {
+        "state": "Rajasthan",
+        "gst_dec_2023_rs_crore": 3828,
+        "share_of_total_percent": 3.1308,
+        "mappable": true
+      },
+      {
+        "state": "Sikkim",
+        "gst_dec_2023_rs_crore": 254,
+        "share_of_total_percent": 0.2077,
+        "mappable": true
+      },
+      {
+        "state": "Tamil Nadu",
+        "gst_dec_2023_rs_crore": 9888,
+        "share_of_total_percent": 8.087,
+        "mappable": true
+      },
+      {
+        "state": "Telangana",
+        "gst_dec_2023_rs_crore": 4753,
+        "share_of_total_percent": 3.8873,
+        "mappable": true
+      },
+      {
+        "state": "Tripura",
+        "gst_dec_2023_rs_crore": 79,
+        "share_of_total_percent": 0.0646,
+        "mappable": true
+      },
+      {
+        "state": "Uttar Pradesh",
+        "gst_dec_2023_rs_crore": 8011,
+        "share_of_total_percent": 6.5519,
+        "mappable": true
+      },
+      {
+        "state": "Uttarakhand",
+        "gst_dec_2023_rs_crore": 1470,
+        "share_of_total_percent": 1.2023,
+        "mappable": true
+      },
+      {
+        "state": "West Bengal",
+        "gst_dec_2023_rs_crore": 5019,
+        "share_of_total_percent": 4.1048,
+        "mappable": true
+      }
+    ],
+    "note": "State/UT values are Dec-2023 GST collections; shares are computed against the PIB grand total. Entries marked mappable=false are not states/UTs for map display."
+  },
+  "map": {
+    "purpose": "Political map of India for state-wise tax share",
+    "source": {
+      "name": "DataMeet State Boundaries (state polygons)",
+      "url": "https://projects.datameet.org/maps/states/",
+      "license": "CC BY 2.5 India (per DataMeet site)"
+    },
+    "note": "Use the DataMeet state boundaries and join by state name to the GST share data above."
+  }
+}

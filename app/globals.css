@@ -48,6 +48,8 @@
 }
 
 :root {
+  --font-sans: var(--font-sora);
+  --font-display: var(--font-fraunces);
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -122,5 +124,33 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@media print {
+  body.print-mode * {
+    visibility: hidden !important;
+  }
+  body.print-mode .print-target,
+  body.print-mode .print-target * {
+    visibility: visible !important;
+  }
+  body.print-mode .print-target {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  body.print-mode[data-print-id="old-regime"]
+    .print-target[data-print-id="new-regime"],
+  body.print-mode[data-print-id="new-regime"]
+    .print-target[data-print-id="old-regime"] {
+    visibility: hidden !important;
+  }
+  body.print-mode[data-print-id="new-regime"]
+    .print-target[data-print-id="new-regime"],
+  body.print-mode[data-print-id="old-regime"]
+    .print-target[data-print-id="old-regime"] {
+    visibility: visible !important;
   }
 }
