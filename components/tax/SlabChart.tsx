@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+ 
 "use client";
 
 import * as React from "react";
@@ -130,22 +132,27 @@ export function SlabChart({
 
     const updateSelection = () => {
       const option = chart.getOption();
-      const zoom = option.dataZoom?.[0];
-      if (
-        !zoom ||
-        typeof zoom.start === "undefined" ||
-        typeof zoom.end === "undefined"
-      ) {
-        return;
+      const  zoomtemp=option.dataZoom as any
+      if (zoomtemp && zoomtemp.length > 0) {
+
+        
+        const zoom = zoomtemp?.[0] 
+        if (
+          !zoom ||
+          typeof zoom.start === "undefined" ||
+          typeof zoom.end === "undefined"
+        ) {
+          return;
+        }
+        const startIndex = Math.round(((zoom.start as number) / 100) * (values.length - 1));
+        const endIndex = Math.round(((zoom.end as number) / 100) * (values.length - 1));
+        const nextSelection = {
+          startIndex: Math.min(startIndex, endIndex),
+          endIndex: Math.max(startIndex, endIndex),
+        };
+        setSelection(nextSelection);
+        onSelectionChange(nextSelection);
       }
-      const startIndex = Math.round(((zoom.start as number) / 100) * (values.length - 1));
-      const endIndex = Math.round(((zoom.end as number) / 100) * (values.length - 1));
-      const nextSelection = {
-        startIndex: Math.min(startIndex, endIndex),
-        endIndex: Math.max(startIndex, endIndex),
-      };
-      setSelection(nextSelection);
-      onSelectionChange(nextSelection);
     };
 
     chart.on("dataZoom", updateSelection);

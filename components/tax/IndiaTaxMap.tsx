@@ -61,16 +61,7 @@ export function IndiaTaxMap({ states }: { states: StateShare[] }) {
       });
 
       const option: EChartsOption = {
-        tooltip: {
-          trigger: "item",
-          formatter: (params: { name: string; value?: number; data?: { gst?: number } }) => {
-            if (!params.value) {
-              return `${params.name}<br/>No GST share data`;
-            }
-            const gst = params.data?.gst ? `${params.data.gst} cr` : "N/A";
-            return `${params.name}<br/>GST share: ${params.value.toFixed(2)}%<br/>GST: ${gst}`;
-          },
-        },
+    
         visualMap: {
           min: 0,
           max: Math.max(...states.map((s) => s.share_of_total_percent)),
