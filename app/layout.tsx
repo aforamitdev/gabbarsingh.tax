@@ -123,7 +123,22 @@ gtag('config', 'G-PKF5LT2T99');`}
                   Turning tax chaos into clean, calm math.
                 </span>
               </div>
+              
               <div className="flex flex-wrap items-center gap-3">
+                            <a
+                  href="/terms-of-use"
+                  rel="noreferrer"
+                  className="rounded-full border border-[#e5dbcf] bg-white px-4 py-2 text-[11px] uppercase tracking-[0.25em] text-[#6b6156] transition hover:border-[#1f1d1a] hover:text-[#1f1d1a]"
+                >
+                  Terms
+                </a>
+                        <a
+                  href="/privacy-policy"
+                  rel="noreferrer"
+                  className="rounded-full border border-[#e5dbcf] bg-white px-4 py-2 text-[11px] uppercase tracking-[0.25em] text-[#6b6156] transition hover:border-[#1f1d1a] hover:text-[#1f1d1a]"
+                >
+                  Privacy
+                </a>
                 <a
                   href="https://github.com/aforamitdev"
                   target="_blank"

@@ -1,0 +1,353 @@
+{
+  "title": "Nation Wealth",
+  "generated_on": "2026-02-03",
+  "source": {
+    "name": "Allianz Global Wealth Report 2023 – Appendix B2 (Net financial assets by country, 2022)",
+    "url": "https://www.allianz.com/en/economic_research/insights/publications/allianz-global-wealth-report-2023/appendices.html",
+    "year": 2022,
+    "currency": "EUR",
+    "units": {
+      "net_financial_assets_eur_bn": "EUR billions",
+      "net_financial_assets_per_capita_eur": "EUR per capita"
+    },
+    "definition": "Net financial assets of households = gross financial assets minus liabilities; not total national wealth."
+  },
+  "groups": {
+    "g7": {
+      "label": "G7",
+      "countries": [
+        {
+          "country": "United States",
+          "net_financial_assets_eur_bn": 85413,
+          "net_financial_assets_per_capita_eur": 253450,
+          "data_available": true
+        },
+        {
+          "country": "Canada",
+          "net_financial_assets_eur_bn": 4481,
+          "net_financial_assets_per_capita_eur": 117450,
+          "data_available": true
+        },
+        {
+          "country": "United Kingdom",
+          "net_financial_assets_eur_bn": 5946,
+          "net_financial_assets_per_capita_eur": 88380,
+          "data_available": true
+        },
+        {
+          "country": "Germany",
+          "net_financial_assets_eur_bn": 5300,
+          "net_financial_assets_per_capita_eur": 63540,
+          "data_available": true
+        },
+        {
+          "country": "France",
+          "net_financial_assets_eur_bn": 4356,
+          "net_financial_assets_per_capita_eur": 67500,
+          "data_available": true
+        },
+        {
+          "country": "Italy",
+          "net_financial_assets_eur_bn": 4108,
+          "net_financial_assets_per_capita_eur": 69340,
+          "data_available": true
+        },
+        {
+          "country": "Japan",
+          "net_financial_assets_eur_bn": 12025,
+          "net_financial_assets_per_capita_eur": 96500,
+          "data_available": true
+        }
+      ]
+    },
+    "g20": {
+      "label": "G20",
+      "countries": [
+        {
+          "country": "Argentina",
+          "net_financial_assets_eur_bn": 67,
+          "net_financial_assets_per_capita_eur": 1490,
+          "data_available": true
+        },
+        {
+          "country": "Australia",
+          "net_financial_assets_eur_bn": 2401,
+          "net_financial_assets_per_capita_eur": 92630,
+          "data_available": true
+        },
+        {
+          "country": "Brazil",
+          "net_financial_assets_eur_bn": 1763,
+          "net_financial_assets_per_capita_eur": 8220,
+          "data_available": true
+        },
+        {
+          "country": "Canada",
+          "net_financial_assets_eur_bn": 4481,
+          "net_financial_assets_per_capita_eur": 117450,
+          "data_available": true
+        },
+        {
+          "country": "China",
+          "net_financial_assets_eur_bn": 22751,
+          "net_financial_assets_per_capita_eur": 15960,
+          "data_available": true
+        },
+        {
+          "country": "France",
+          "net_financial_assets_eur_bn": 4356,
+          "net_financial_assets_per_capita_eur": 67500,
+          "data_available": true
+        },
+        {
+          "country": "Germany",
+          "net_financial_assets_eur_bn": 5300,
+          "net_financial_assets_per_capita_eur": 63540,
+          "data_available": true
+        },
+        {
+          "country": "India",
+          "net_financial_assets_eur_bn": 2688,
+          "net_financial_assets_per_capita_eur": 1910,
+          "data_available": true
+        },
+        {
+          "country": "Indonesia",
+          "net_financial_assets_eur_bn": 263,
+          "net_financial_assets_per_capita_eur": 960,
+          "data_available": true
+        },
+        {
+          "country": "Italy",
+          "net_financial_assets_eur_bn": 4108,
+          "net_financial_assets_per_capita_eur": 69340,
+          "data_available": true
+        },
+        {
+          "country": "Japan",
+          "net_financial_assets_eur_bn": 12025,
+          "net_financial_assets_per_capita_eur": 96500,
+          "data_available": true
+        },
+        {
+          "country": "Mexico",
+          "net_financial_assets_eur_bn": 1436,
+          "net_financial_assets_per_capita_eur": 11330,
+          "data_available": true
+        },
+        {
+          "country": "Russia",
+          "net_financial_assets_eur_bn": 1236,
+          "net_financial_assets_per_capita_eur": 8520,
+          "data_available": true
+        },
+        {
+          "country": "Saudi Arabia",
+          "net_financial_assets_eur_bn": null,
+          "net_financial_assets_per_capita_eur": null,
+          "data_available": false
+        },
+        {
+          "country": "South Africa",
+          "net_financial_assets_eur_bn": 534,
+          "net_financial_assets_per_capita_eur": 9000,
+          "data_available": true
+        },
+        {
+          "country": "South Korea",
+          "net_financial_assets_eur_bn": 1969,
+          "net_financial_assets_per_capita_eur": 38000,
+          "data_available": true
+        },
+        {
+          "country": "Türkiye",
+          "net_financial_assets_eur_bn": 273,
+          "net_financial_assets_per_capita_eur": 3220,
+          "data_available": true
+        },
+        {
+          "country": "United Kingdom",
+          "net_financial_assets_eur_bn": 5946,
+          "net_financial_assets_per_capita_eur": 88380,
+          "data_available": true
+        },
+        {
+          "country": "United States",
+          "net_financial_assets_eur_bn": 85413,
+          "net_financial_assets_per_capita_eur": 253450,
+          "data_available": true
+        },
+        {
+          "country": "European Union",
+          "net_financial_assets_eur_bn": null,
+          "net_financial_assets_per_capita_eur": null,
+          "data_available": false
+        }
+      ]
+    },
+    "saarc": {
+      "label": "SAARC",
+      "countries": [
+        {
+          "country": "Afghanistan",
+          "net_financial_assets_eur_bn": null,
+          "net_financial_assets_per_capita_eur": null,
+          "data_available": false
+        },
+        {
+          "country": "Bangladesh",
+          "net_financial_assets_eur_bn": null,
+          "net_financial_assets_per_capita_eur": null,
+          "data_available": false
+        },
+        {
+          "country": "Bhutan",
+          "net_financial_assets_eur_bn": null,
+          "net_financial_assets_per_capita_eur": null,
+          "data_available": false
+        },
+        {
+          "country": "India",
+          "net_financial_assets_eur_bn": 2688,
+          "net_financial_assets_per_capita_eur": 1910,
+          "data_available": true
+        },
+        {
+          "country": "Maldives",
+          "net_financial_assets_eur_bn": null,
+          "net_financial_assets_per_capita_eur": null,
+          "data_available": false
+        },
+        {
+          "country": "Nepal",
+          "net_financial_assets_eur_bn": null,
+          "net_financial_assets_per_capita_eur": null,
+          "data_available": false
+        },
+        {
+          "country": "Pakistan",
+          "net_financial_assets_eur_bn": 135,
+          "net_financial_assets_per_capita_eur": 580,
+          "data_available": true
+        },
+        {
+          "country": "Sri Lanka",
+          "net_financial_assets_eur_bn": 29,
+          "net_financial_assets_per_capita_eur": 1340,
+          "data_available": true
+        }
+      ]
+    },
+    "asia": {
+      "label": "ASIA",
+      "countries": [
+        {
+          "country": "China",
+          "net_financial_assets_eur_bn": 22751,
+          "net_financial_assets_per_capita_eur": 15960,
+          "data_available": true
+        },
+        {
+          "country": "India",
+          "net_financial_assets_eur_bn": 2688,
+          "net_financial_assets_per_capita_eur": 1910,
+          "data_available": true
+        },
+        {
+          "country": "Japan",
+          "net_financial_assets_eur_bn": 12025,
+          "net_financial_assets_per_capita_eur": 96500,
+          "data_available": true
+        },
+        {
+          "country": "South Korea",
+          "net_financial_assets_eur_bn": 1969,
+          "net_financial_assets_per_capita_eur": 38000,
+          "data_available": true
+        },
+        {
+          "country": "Indonesia",
+          "net_financial_assets_eur_bn": 263,
+          "net_financial_assets_per_capita_eur": 960,
+          "data_available": true
+        },
+        {
+          "country": "Malaysia",
+          "net_financial_assets_eur_bn": 330,
+          "net_financial_assets_per_capita_eur": 9830,
+          "data_available": true
+        },
+        {
+          "country": "Thailand",
+          "net_financial_assets_eur_bn": 366,
+          "net_financial_assets_per_capita_eur": 5110,
+          "data_available": true
+        },
+        {
+          "country": "Singapore",
+          "net_financial_assets_eur_bn": 898,
+          "net_financial_assets_per_capita_eur": 151200,
+          "data_available": true
+        },
+        {
+          "country": "Philippines",
+          "net_financial_assets_eur_bn": 199,
+          "net_financial_assets_per_capita_eur": 1750,
+          "data_available": true
+        },
+        {
+          "country": "Pakistan",
+          "net_financial_assets_eur_bn": 135,
+          "net_financial_assets_per_capita_eur": 580,
+          "data_available": true
+        },
+        {
+          "country": "Sri Lanka",
+          "net_financial_assets_eur_bn": 29,
+          "net_financial_assets_per_capita_eur": 1340,
+          "data_available": true
+        },
+        {
+          "country": "Türkiye",
+          "net_financial_assets_eur_bn": 273,
+          "net_financial_assets_per_capita_eur": 3220,
+          "data_available": true
+        },
+        {
+          "country": "Taiwan",
+          "net_financial_assets_eur_bn": 3379,
+          "net_financial_assets_per_capita_eur": 141600,
+          "data_available": true
+        },
+        {
+          "country": "Vietnam",
+          "net_financial_assets_eur_bn": null,
+          "net_financial_assets_per_capita_eur": null,
+          "data_available": false
+        },
+        {
+          "country": "Bangladesh",
+          "net_financial_assets_eur_bn": null,
+          "net_financial_assets_per_capita_eur": null,
+          "data_available": false
+        },
+        {
+          "country": "Saudi Arabia",
+          "net_financial_assets_eur_bn": null,
+          "net_financial_assets_per_capita_eur": null,
+          "data_available": false
+        },
+        {
+          "country": "United Arab Emirates",
+          "net_financial_assets_eur_bn": null,
+          "net_financial_assets_per_capita_eur": null,
+          "data_available": false
+        }
+      ]
+    }
+  },
+  "notes": [
+    "Data availability is limited to countries in Allianz Global Wealth Report 2023 Appendix B2.",
+    "Missing countries are left as null for future data expansion."
+  ]
+}

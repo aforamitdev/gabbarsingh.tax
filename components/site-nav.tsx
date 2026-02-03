@@ -7,7 +7,7 @@ export function SiteNav() {
         href="/"
         className="rounded-full border border-[#e5dbcf] bg-white px-4 py-2 text-[#6b6156] transition hover:border-[#1f1d1a] hover:text-[#1f1d1a]"
       >
-        Dashboard
+        My Tax
       </Link>
       <Link
         href="/income-compare"
@@ -19,7 +19,13 @@ export function SiteNav() {
         href="/india-tax-health"
         className="rounded-full border border-[#e5dbcf] bg-white px-4 py-2 text-[#6b6156] transition hover:border-[#1f1d1a] hover:text-[#1f1d1a]"
       >
-        India tax health
+        India`s tax health
+      </Link>
+      <Link
+        href="/nation-wealth"
+        className="rounded-full border border-[#e5dbcf] bg-white px-4 py-2 text-[#6b6156] transition hover:border-[#1f1d1a] hover:text-[#1f1d1a]"
+      >
+        Nation wealth
       </Link>
     </nav>
   );
